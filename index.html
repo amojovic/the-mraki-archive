@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>The Mraki Archive</title>
+  <meta name="description" content="A catalogue of the most interesting things I've made: finished projects, experiments, odd concepts, art and memetics." />
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="top">
+
+  <div class="page">
+
+    <div class="topline">
+      <span>Welcome, <b>guest</b>.</span>
+      <a href="https://github.com/amojovic" target="_blank" rel="noopener noreferrer">[ github ]</a>
+    </div>
+
+    <header class="banner">
+      <img class="logo" src="assets/images/avatar.png" width="96" height="96" alt="" />
+      <div class="banner-text">
+        <h1 class="site-title">The Mraki Archive</h1>
+        <p class="site-desc">
+          A catalogue of the most interesting things I've made: finished projects,
+          experiments, odd concepts, art and memetics, plus the occasional idea
+          that hasn't turned into a project yet.
+        </p>
+      </div>
+    </header>
+
+    <nav class="crumbs">mraki archive &raquo; <b>index</b></nav>
+
+    <section class="box" aria-labelledby="index-head">
+      <h2 class="box-head" id="index-head">
+        <span>index</span>
+        <span class="box-head-note" id="post-count"></span>
+      </h2>
+      <div class="box-body">
+        <ul class="tree" id="tree"><!-- built by app.js --></ul>
+      </div>
+    </section>
+
+    <main id="posts"><!-- built by app.js --></main>
+
+    <footer class="foot">
+      <section class="box" aria-labelledby="here-head">
+        <h2 class="box-head" id="here-head"><span>who is here</span></h2>
+        <div class="box-body small">Currently browsing: <b>1 guest</b>. No registered users.</div>
+      </section>
+
+      <div class="badges">
+        <a class="badge" href="#top"><b>MRAKI</b><span>archive</span></a>
+        <a class="badge" href="https://github.com/amojovic" target="_blank" rel="noopener noreferrer"><b>GIT</b><span>hub</span></a>
+        <span class="badge"><b>NO</b><span>cookies</span></span>
+      </div>
+
+      <p class="fine">the mraki archive &middot; <a href="#top">back to top</a></p>
+    </footer>
+
+  </div>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+      <div class="lightbox-bar">
+        <button type="button" class="btn" data-lb="prev">&laquo; prev</button>
+        <span id="lightbox-count" class="lightbox-count"></span>
+        <button type="button" class="btn" data-lb="next">next &raquo;</button>
+        <button type="button" class="btn" data-lb="close">close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/posts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
